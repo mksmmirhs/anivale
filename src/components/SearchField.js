@@ -8,7 +8,7 @@ const SearchField = ({ searchHandler }) => {
           type="text"
           name="search"
           placeholder="Search..."
-          className="border border-gray-400 rounded-l py-2 px-3 focus:outline-none focus:ring focus:border-blue-500"
+          className="border border-r-0 border-gray-400 rounded-l py-2 px-3 focus:outline-none "
         />
         <button className="bg-blue-500 text-white rounded-r px-4 py-2">
           Search
