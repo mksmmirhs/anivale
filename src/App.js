@@ -24,11 +24,11 @@ function App() {
       <Header></Header>
       <div className="max-w-[1200px] mx-auto">
         <SearchField searchHandler={searchHandler}></SearchField>
-        <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-4 py-4">
+        <div className="w-full grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-4 py-4">
           {uiData.map(imageData => (
             <ImageCard
               key={imageData.id}
-              largeImageURL={imageData.webformatURL}
+              largeImageURL={imageData.largeImageURL}
             ></ImageCard>
           ))}
         </div>
